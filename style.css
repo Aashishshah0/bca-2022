@@ -1,0 +1,170 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+}
+.container1 .box{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.container1 .row1{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+}
+
+.container1 .row1 .box{
+    height: 90%;
+    width: 30%;
+    border: 2px solid black;;
+    background-color: red
+}
+
+.container1 .row2{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+
+.container1 .row2 .box{
+    height: 90%;
+    width: 98%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.container1 .row3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container1 .row3 .box{
+    height: 90%;
+    border: 2px solid black;
+}
+
+.container1 .row3 .b1{
+    width: 28%;
+}
+
+.container1 .row3 .b2{
+    width: 68%;
+}
+
+
+/* Second Site */
+
+.container2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr 3fr 1fr fr;
+}
+
+.container2 .row1{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .row1 .box{
+    height: 90%;
+    width: 98%;
+    border: 2px solid black;
+}
+
+.container2 .row2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .row2 .box{
+    height: 90%;
+    width: 98%;
+    border: 2px solid black;
+}
+
+.container2 .row3{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .row3 .box{
+    height: 90%;
+    width: 98%;
+    border: 2px solid black;
+}
+
+.container2 .row4{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container2 .row4 .box{
+    height: 90%;
+    border: 2px solid black;
+}
+
+.container2 .row4 .b1{
+    width: 20%;
+}
+
+.container2 .row4 .b2{
+    width: 50%;
+}
+
+.container2 .row4 .b3{
+    width: 20%;
+}
+
+.container2 .row5{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .row5 .box{
+    height: 90%;
+    width: 98%;
+    border: 2px solid black;
+}

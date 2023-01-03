@@ -1,0 +1,9 @@
+h1{
+    color: aqua;
+}
+h2{
+    background-color: blueviolet;
+}
+h3{
+    animation-play-state: running;
+}
